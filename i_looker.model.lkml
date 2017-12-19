@@ -1,4 +1,4 @@
-connection: "looker"
+connection: "shoprunner"
 
 # include all the views
 include: "*.view"
