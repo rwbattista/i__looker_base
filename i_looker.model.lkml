@@ -1,4 +1,4 @@
-connection: "shoprunner"
+connection: "looker"
 
 # include all the views
 include: "*.view"
@@ -7,7 +7,7 @@ include: "*.view"
 include: "*.dashboard"
 
 explore: support_access_event {
-  extension: required
+#   extension: required
   view_name: support_access_event
 
   join: user {
